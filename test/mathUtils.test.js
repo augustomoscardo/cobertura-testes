@@ -6,9 +6,9 @@ describe('sum', () => {
     expect(sum(2, 3)).to.equal(5);
   });
 
-  // it('should throw error for non-number inputs', () => {
-  //   expect(() => sum("2", 3)).to.throw('Invalid arguments');
-  // });
+  it('should throw error for non-number inputs', () => {
+    expect(() => sum("2", 3)).to.throw('Invalid arguments');
+  });
 })
 
 describe("divide", () => {

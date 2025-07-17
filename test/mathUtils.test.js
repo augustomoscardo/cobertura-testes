@@ -12,11 +12,11 @@ describe('sum', () => {
 })
 
 describe("divide", () => {
-  // it('should divide two numbers', () => {
-  //   expect(divide(6, 3)).to.equal(2)
-  // })
+  it('should divide two numbers', () => {
+    expect(divide(6, 3)).to.equal(2)
+  })
 
-  // it('should throw error for 0 divisor', () => {
-  //   expect(() => divide(4, 0)).to.throw('Division by zero');
-  // });
+  it('should throw error for 0 divisor', () => {
+    expect(() => divide(4, 0)).to.throw('Division by zero');
+  });
 })
